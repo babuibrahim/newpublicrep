@@ -1,0 +1,130 @@
+body{
+    font-family: initial;
+}
+#backimg{
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url(packhead.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 90vh;
+}
+
+#centre_divmain{
+    padding-top: 14vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+#but1{
+    color: white;
+    background-color: transparent;
+    border:solid  1.2px  white;
+    width: 35vh;
+    transition: .3s;
+}    
+#but1:hover{
+    color: black;
+    background-color: white;
+    transform: scale(1.1);
+    border:solid  1.2px  white;
+    
+}
+#hearletter{
+    font-size: 12vh;
+}
+#text{
+    padding-top: .15em;
+    padding-bottom: .15em;
+}
+.btntxt:hover{
+    text-decoration: underline;
+    color: black;
+}
+#middle div{
+    color: white;
+}
+
+#centre_divsub1{
+    margin-top: 10%;
+    text-align: center;
+    justify-content: center;
+}
+.imggap{
+    height: 1.6em;
+   
+}
+.tophead{
+    font-size: 3.5em;
+
+}
+.headletter1{
+    
+    text-align: center;
+    
+    
+}
+
+.lineimage{
+     height: 1rem;
+     width: 4rem;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 8%;
+   
+     
+}
+.fonts{
+    font-weight: lighter;
+    opacity: 70%;
+}
+.but2{ 
+    color: black;
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 0.1rem;
+}
+.but2:hover{
+    color: white;
+    text-decoration: underline;
+    
+    background-color: black;
+    
+}
+#textcon{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+#bottom{
+    background-color: #002633;
+}
+
+.last h1{
+    color: white;
+}
+
+#but3{
+    color: white;
+    width: 24em;
+    border: 1px solid white;
+    transition: 1s;
+    margin-top: .3em;
+}
+#but3:hover{
+    background-color: #20c997;
+    transform: scale(1);
+    
+
+}
+span{
+    color: rgb(253, 121, 121);
+}
